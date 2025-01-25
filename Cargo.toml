@@ -8,7 +8,6 @@ repository = "https://github.com/jbirnick/clap-dispatch"
 license = "MIT"
 keywords = ["clap", "cli", "command", "subcommand"]
 categories = ["command-line-interface", "parsing", "rust-patterns"]
-include = ["src/lib.rs", "README.md", "LICENSE", "example/"]
 
 [lib]
 proc-macro = true
