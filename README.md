@@ -1,4 +1,4 @@
-# cargo-dispatch
+# clap-dispatch
 
 Ergonomic way to dispatch CLI subcommands in Rust.
 
