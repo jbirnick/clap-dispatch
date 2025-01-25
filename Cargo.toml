@@ -1,0 +1,19 @@
+[package]
+name = "clap-dispatch"
+version = "0.1.0"
+authors = ["Johann Birnick"]
+edition = "2021"
+description = "Ergonomically dispatch CLI subcommands"
+repository = "https://github.com/jbirnick/clap-dispatch"
+license = "MIT"
+keywords = ["clap", "cli", "command", "subcommand"]
+categories = ["command-line-interface", "parsing", "rust-patterns"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
+heck = "0.5"
