@@ -1,6 +1,6 @@
 [package]
 name = "clap-dispatch"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Johann Birnick"]
 edition = "2021"
 description = "Ergonomically dispatch CLI subcommands"
